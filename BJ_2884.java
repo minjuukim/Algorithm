@@ -11,8 +11,8 @@ public class BK2884 {
 		hour = scanner.nextInt();
 		min = scanner.nextInt();
 		
-		// if ¹®
-		// 45ºĞ ¾Õ¼­´Â ½Ã°£À¸·Î ¹Ù²Ù±â
+		// if ë¬¸
+		// 45ë¶„ ì•ì„œëŠ” ì‹œê°„ìœ¼ë¡œ ë°”ê¾¸ê¸°
 		if ( min >= 45 && min <= 59) {	
 			min = min-45; 
 		} else {
