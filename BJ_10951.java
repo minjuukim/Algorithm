@@ -6,14 +6,14 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 public class BJ10951 {
-//	**************¹æ¹ı3
+//	**************ë°©ë²•3
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder();	// Ãâ·Â¿¡ ÀÌ¿ë
+		StringBuilder sb = new StringBuilder();	// ì¶œë ¥ì— ì´ìš©
 		String str;
 		
 		while( (str=br.readLine()) != null) {
-			//charAt() Àº ÇØ´ç ¹®ÀÚÀÇ ¾Æ½ºÅ°ÄÚµå °ªÀ» ¹İÈ¯ÇÏ±â ¶§¹®¿¡ ¹İµå½Ã Á¤¼ö ÇüÅÂ·Î º¯°æÇÏ·Á¸é -48 ¶Ç´Â -'0'À» ÇØÁà¾ßÇÔ
+			//charAt() ì€ í•´ë‹¹ ë¬¸ìì˜ ì•„ìŠ¤í‚¤ì½”ë“œ ê°’ì„ ë°˜í™˜í•˜ê¸° ë•Œë¬¸ì— ë°˜ë“œì‹œ ì •ìˆ˜ í˜•íƒœë¡œ ë³€ê²½í•˜ë ¤ë©´ -48 ë˜ëŠ” -'0'ì„ í•´ì¤˜ì•¼í•¨
 			int a = str.charAt(0) - 48;		
 			int b = str.charAt(2) - 48;
 			sb.append(a+b).append("\n");
@@ -21,15 +21,15 @@ public class BJ10951 {
 		System.out.print(sb);
 	}
 	
-//	**************¹æ¹ı2
+//	**************ë°©ë²•2
 //	public static void main(String[] args) throws IOException {
 //		
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//		StringBuilder sb = new StringBuilder();	// Ãâ·Â¿¡ ÀÌ¿ë
+//		StringBuilder sb = new StringBuilder();	// ì¶œë ¥ì— ì´ìš©
 //		StringTokenizer st;
 //		String str;
 //		
-//		//readLineÀ» ÅëÇØ ÀÔ·ÂÀ» ÇÏ¿© str¿¡ ÀúÀåµÈ µ¥ÀÌÅÍ°¡ nullÀÏ °æ¿ì while ¹İº¹¹® Á¾·á
+//		//readLineì„ í†µí•´ ì…ë ¥ì„ í•˜ì—¬ strì— ì €ì¥ëœ ë°ì´í„°ê°€ nullì¼ ê²½ìš° while ë°˜ë³µë¬¸ ì¢…ë£Œ
 //		while( (str=br.readLine()) != null) {
 //			st = new StringTokenizer(str, " ");
 //			int a = Integer.parseInt(st.nextToken());
@@ -39,7 +39,7 @@ public class BJ10951 {
 //		System.out.print(sb);
 //	}
 	
-	/* **************¹æ¹ı1
+	/* **************ë°©ë²•1
 	 * public static void main(String[] args) { int a, b; Scanner sc = new
 	 * Scanner(System.in);
 	 * 
