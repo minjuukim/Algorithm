@@ -10,17 +10,17 @@ public class BK15552 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;
 		
-		// StringÀÌ ¸®ÅÏ°ªÀÌ¶ó Çüº¯È¯ ÇÊ¼ö! ¶óÀÎ´ÜÀ§ÀÓ
+		// Stringì´ ë¦¬í„´ê°’ì´ë¼ í˜•ë³€í™˜ í•„ìˆ˜! ë¼ì¸ë‹¨ìœ„ì„
 		int T = Integer.parseInt(br.readLine());
 		
 		for(int i=1; i<=T; i++) {
 			st = new StringTokenizer(br.readLine());
-			// readLine()À» ÅëÇØ ÀÔ·Â¹ŞÀº °ªÀ» °ø¹é´ÜÀ§·Î ±¸ºĞÇÏ¿©  ¼ø¼­´ë·Î È£Ãâ
+			// readLine()ì„ í†µí•´ ì…ë ¥ë°›ì€ ê°’ì„ ê³µë°±ë‹¨ìœ„ë¡œ êµ¬ë¶„í•˜ì—¬  ìˆœì„œëŒ€ë¡œ í˜¸ì¶œ
 			int a = Integer.parseInt(st.nextToken());	
 			int b = Integer.parseInt(st.nextToken());
-			bw.write(a+b+"\n");		// ¹öÆÛ¿¡ ÀÖ´Â °ª ÀüºÎ Ãâ·Â
+			bw.write(a+b+"\n");		// ë²„í¼ì— ìˆëŠ” ê°’ ì „ë¶€ ì¶œë ¥
 		}
-		bw.close();	// ½ºÆ®¸²À» ´İÀ½
+		bw.close();	// ìŠ¤íŠ¸ë¦¼ì„ ë‹«ìŒ
 	}
 }
 
