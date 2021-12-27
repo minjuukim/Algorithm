@@ -8,11 +8,11 @@ public class BJ10952 {
 		Scanner sc = new Scanner(System.in);
 		int a, b;
 		
-		while (true){	// while¹®ÀÇ Á¶°Ç½ÄÀº »ı·«ºÒ°¡
+		while (true){	// whileë¬¸ì˜ ì¡°ê±´ì‹ì€ ìƒëµë¶ˆê°€
 			a = sc.nextInt();
 			b = sc.nextInt();
 			if (a==0 && b==0) 
-				break;	// ÀÚ½ÅÀÌ Æ÷ÇÔµÈ °¡Àå °¡±î¿î ¹İº¹¹®À» ¹ş¾î³²
+				break;	// ìì‹ ì´ í¬í•¨ëœ ê°€ì¥ ê°€ê¹Œìš´ ë°˜ë³µë¬¸ì„ ë²—ì–´ë‚¨
 			System.out.println(a+b);
 		}
 	}
