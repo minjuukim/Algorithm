@@ -8,23 +8,23 @@ import java.util.List;
 
 public class BJ_3052 {
 
-	/*******¹æ¹ı1: BufferedReader + List **********/	
+	/*******ë°©ë²•1: BufferedReader + List **********/	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		// ³ª¸ÓÁö °ªÀÌ µé¾î°¥ ¸®½ºÆ® »ı¼º
+		// ë‚˜ë¨¸ì§€ ê°’ì´ ë“¤ì–´ê°ˆ ë¦¬ìŠ¤íŠ¸ ìƒì„±
 		List<Integer> list = new ArrayList<>();
 		
-		//¸®½ºÆ®¿¡ ³ª¸ÓÁö°ª ³Ö±â
+		//ë¦¬ìŠ¤íŠ¸ì— ë‚˜ë¨¸ì§€ê°’ ë„£ê¸°
 		for(int i=0; i<10; i++) {
 			int reminder = Integer.parseInt(br.readLine()) % 42;
 			if ( !list.contains(reminder) )
-				list.add(reminder);	// List¿¡ »õ·Î¿î °ª Ãß°¡
+				list.add(reminder);	// Listì— ìƒˆë¡œìš´ ê°’ ì¶”ê°€
 		}
 		System.out.println(list.size());
 	}
 	
-/*******¹æ¹ı2: Scanner + Array *********	
+/*******ë°©ë²•2: Scanner + Array *********	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
