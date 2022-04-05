@@ -32,5 +32,5 @@ public class Solution_3307_최장증가부분수열 {
 			}
 			System.out.println("#"+tc+" "+max);
 		}
-	}
+	} 
 }
