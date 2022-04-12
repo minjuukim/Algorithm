@@ -31,7 +31,7 @@ public class BOJ_17471_게리맨더링 {
 			st = new StringTokenizer(br.readLine());
 			int n = Integer.parseInt(st.nextToken());
 			for (int j = 0; j < n; j++) {
-				int k = Integer.parseInt(st.nextToken());
+				int k = Integer.parseInt(st.nextToken()); 
 				adjList[i].add(k);
 				
 			}
