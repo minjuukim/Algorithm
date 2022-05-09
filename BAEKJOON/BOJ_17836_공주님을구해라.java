@@ -84,7 +84,7 @@ public class BOJ_17836_공주님을구해라 {
 		public Pos(int r, int c, int t, boolean get) {
 			super();
 			this.r = r;
-			this.c = c;
+			this.c = c; 
 			this.t = t;
 			this.get = get;
 		}
