@@ -32,7 +32,7 @@ public class BOJ_4949_균형잡힌세상 {
 			
 			if(c==')') {
 				if(stack.empty() || stack.peek()!='(') {
-					return "no";
+					return "no"; 
 				} else {
 					stack.pop();
 				}
