@@ -28,7 +28,7 @@ public class BOJ_G4_15685_드래곤커브 {
 			dragonCurve(x, y, d, g);
 		}
 		
-		int cnt = 0;	// 네 꼭짓점이 모두 드래곤 커브의 일부인 정사각형의 개수
+		int cnt = 0;	// 네 꼭짓점이 모두 드래곤 커브의 일부인 정사각형의 개수 
 		for (int i = 0; i < 100; i++) {
 			for (int j = 0; j < 100; j++) {
 				if(map[i][j] && map[i+1][j] && map[i][j+1] && map[i+1][j+1]) {
