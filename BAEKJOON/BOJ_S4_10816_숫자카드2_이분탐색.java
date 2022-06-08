@@ -32,7 +32,7 @@ public class BOJ_S4_10816_숫자카드2_이분탐색 {
 		
 		st = new StringTokenizer(br.readLine());
 		for (int i = 0; i < M; i++) {
-			int key = Integer.parseInt(st.nextToken());
+			int key = Integer.parseInt(st.nextToken()); 
 			
 			// 중복된 원소의 개수 = upperBound(상한) - lowerBound(하한)
 			sb.append(upperBound(cards, key) - lowerBound(cards, key)).append(" ");
