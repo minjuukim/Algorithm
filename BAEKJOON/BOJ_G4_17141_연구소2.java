@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 
 public class BOJ_G4_17141_연구소2 {
 	
-	static int N, M, map[][];
+	static int N, M, map[][], min, ans;
 	static ArrayList<Pos> vList = new ArrayList<>();	// 바이러스를 놓을 수 있는 칸 배열
 	static Pos[] virus;
 	static int[] dr = {-1,1,0,0};
@@ -35,8 +35,10 @@ public class BOJ_G4_17141_연구소2 {
 				}
 			}
 		}
-		
+		min = Integer.MAX_VALUE;
+		ans = -1;
 		comb(0, 0);
+		System.out.println(ans);
 	}
 	
 	// M개 바이러스 놓기
@@ -44,27 +46,34 @@ public class BOJ_G4_17141_연구소2 {
 	public static void comb(int start, int cnt) {
 		
 		if(cnt==M) {
-			bfs(virus);
+			int time = bfs(virus);
+			if(time!=-1) {
+				min = Math.min(min, time);
+				ans = min;
+			}
 			return;
 		}
 		
-		for (int i = start; i < N; i++) {
+		for (int i = start; i < vList.size(); i++) {
 			virus[cnt] = vList.get(i);
 			comb(i+1, cnt+1);
 		}
 	}
 	
 	// 모든 빈칸에 바이러스 퍼뜨리는 최소시간 구하기
-	public static void bfs(Pos[] virus) {
+	public static int bfs(Pos[] virus) {
 		Queue<Pos> que = new LinkedList<>();
 		int[][] times = new int[N][N];	// 바이러스가 퍼진 시간 저장한 배열
-		Arrays.fill(times, -1); 	// -1로 초기화
+		for (int i = 0; i < N; i++) {
+			Arrays.fill(times[i], -1); 	// -1로 초기화
+		}
 		
 		for (int i = 0; i < M; i++) {
 			que.offer(new Pos(virus[i].r, virus[i].c));
 			times[virus[i].r][virus[i].c] = 0;	// 바이러스가 있는 칸:0
 		}
 		
+		int cnt = 0;
 		while(!que.isEmpty()) {
 			Pos cur = que.poll();
 			
@@ -75,9 +84,20 @@ public class BOJ_G4_17141_연구소2 {
 				// 범위를 벗어나거나, 벽이거나, 이미 방문한 곳이라면 패스
 				if(nr<0 || nr>=N || nc<0 || nc>=N || map[nr][nc]==1 || times[nr][nc]!=-1) continue;
 				
-				
+				times[nr][nc] = times[cur.r][cur.c]+1;
+				cnt = times[nr][nc];
+				que.offer(new Pos(nr, nc));
 			}
 		}
+		
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N; j++) {
+				if(map[i][j]!=1 && times[i][j]==-1) {	// 모든 빈칸에 바이러스를 퍼뜨릴 수 없는 경우
+					return -1;
+				}
+			}
+		}
+		return cnt;
 	}
 	
 	public static class Pos {
@@ -90,5 +110,4 @@ public class BOJ_G4_17141_연구소2 {
 			this.c = c;
 		}
 	}
-
 }
