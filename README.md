@@ -15,9 +15,9 @@
 
 ## 2022/06/28
 
-| 구분 | 난이도 | 번호 | 문제 이름 | 진행 상태 | 분류 | 참고 |
+| 구분 | 난이도 | 번호 | 문제 이름 | 분류 | 진행 상태 | 참고 |
 |:------:|:------:|:----:|:---------:|:---------:|:---------:|:---------:|
-| [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [17141](https://www.acmicpc.net/problem/17141) | [블록 놀이](https://www.acmicpc.net/problem/17141) | :white_check_mark:[code](BAEKJOON/BOJ_G4_17141_연구소2.java) | `BFS`  
+| [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [17141](https://www.acmicpc.net/problem/17141) | [블록 놀이](https://www.acmicpc.net/problem/17141) | `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_G4_17141_연구소2.java) |
 
 
 
