@@ -7,17 +7,17 @@
 
 <br/>  
 
-## 2022/06/29
+## 2022/07/01
 
 | 구분 | 난이도 | 번호 | 문제 이름 | 진행 상태 | 분류 | 참고 |
 |:------:|:------:|:----:|:---------:|:---------:|:---------:|:---------:|
 
 
-## 2022/06/28
+## 2022/06/30
 
 | 구분 | 난이도 | 번호 | 문제 이름 | 분류 | 진행 상태 | 참고 |
 |:------:|:------:|:----:|:---------:|:---------:|:---------:|:---------:|
-| [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [17141](https://www.acmicpc.net/problem/17141) | [블록 놀이](https://www.acmicpc.net/problem/17141) | `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_G4_17141_연구소2.java) |
+| [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [17141](https://www.acmicpc.net/problem/20300) | [서강근육맨](https://www.acmicpc.net/problem/20300) | `그리디` `정렬` | :white_check_mark:[code](BAEKJOON/BOJ_S3_20300_서강근육맨.java) |
 
 
 
