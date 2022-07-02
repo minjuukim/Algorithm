@@ -34,7 +34,7 @@ public class BOJ_G3_2234_성곽 {
 		
 		rooms = 0;	// 섬에 있는 방의 개수
 		int maxRoom = 0;
-		list = new ArrayList<>();
+		list = new ArrayList<>();	// 각 방의 칸의 개수
 		list.add(0);
 		visited = new int[R][C];
 		for (int i = 0; i < R; i++) {
@@ -91,7 +91,7 @@ public class BOJ_G3_2234_성곽 {
 		
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
-				int roomNum = visited[i][j];
+				int roomNum = visited[i][j];	// 현재방 번호
 				
 				for (int d = 0; d < 4; d++) {
 					int nr = i + dr[d];
@@ -99,6 +99,7 @@ public class BOJ_G3_2234_성곽 {
 					
 					if(nr<0 || nr>=R || nc<0 || nc>=C || visited[nr][nc]==roomNum) continue;
 					
+					// 현재방 번호랑 다를 경우
 					brokenMax = Math.max(brokenMax, list.get(roomNum) + list.get(visited[nr][nc]));
 				}
 			}
