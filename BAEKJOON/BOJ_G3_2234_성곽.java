@@ -3,16 +3,18 @@ package day0630;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class BOJ_G3_2234_성곽 {
-	static int R, C;
+	static int R, C, rooms;
 	static String map[][];
-	static boolean[][] visited;
+	static int[][] visited;
 	static int[] dr = {1, 0, -1, 0};	// 좌상우하
 	static int[] dc = {0, 1, 0, -1};
+	static ArrayList<Integer> list;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,20 +32,24 @@ public class BOJ_G3_2234_성곽 {
 			}
 		}
 		
-		int rooms = 0;	// 섬에 있는 방의 개수
+		rooms = 0;	// 섬에 있는 방의 개수
 		int maxRoom = 0;
-		visited = new boolean[R][C];
+		list = new ArrayList<>();
+		list.add(0);
+		visited = new int[R][C];
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
-				if(!visited[i][j]) {
+				if(visited[i][j]==0) {
 					rooms++;
-					maxRoom = Math.max(maxRoom, bfs(i, j));
+					list.add(bfs(i, j));
+					maxRoom = Math.max(maxRoom, list.get(rooms));
 				}
 			}
 		}
 		
 		System.out.println(rooms);
 		System.out.println(maxRoom);
+		System.out.println(brokenWall());
 	}
 	
 	// 십진수 -> 이진수 로 변환
@@ -59,7 +65,7 @@ public class BOJ_G3_2234_성곽 {
 	public static int bfs(int r, int c) {
 		Queue<int[]> que = new LinkedList<int[]>();
 		que.offer(new int[]{r, c});	// 초기에 (0,0)추가
-		visited[r][c] = true;
+		visited[r][c] = rooms;
 		int cnt = 1;	// 방의 칸의 개수
 		
 		while(!que.isEmpty()) {
@@ -70,14 +76,33 @@ public class BOJ_G3_2234_성곽 {
 				int nr = cur[0] + dr[i];
 				int nc = cur[1] + dc[i];
 				
-				if(nr<0 || nr>=R || nc<0 || nc>=C || visited[nr][nc] || num.charAt(i)=='1') continue;
+				if(nr<0 || nr>=R || nc<0 || nc>=C || visited[nr][nc]!=0 || num.charAt(i)=='1') continue;
 				
-				visited[nr][nc] = true;
+				visited[nr][nc] = rooms;
 				cnt++;
 				que.offer(new int[] {nr, nc});
 			}
 		}
 		return cnt;
 	}
-
+	
+	public static int brokenWall() {
+		int brokenMax = 0;
+		
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				int roomNum = visited[i][j];
+				
+				for (int d = 0; d < 4; d++) {
+					int nr = i + dr[d];
+					int nc = j + dc[d];
+					
+					if(nr<0 || nr>=R || nc<0 || nc>=C || visited[nr][nc]==roomNum) continue;
+					
+					brokenMax = Math.max(brokenMax, list.get(roomNum) + list.get(visited[nr][nc]));
+				}
+			}
+		}
+		return brokenMax;
+	}
 }
