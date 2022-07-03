@@ -7,10 +7,12 @@
 
 <br/>  
 
-## 2022/07/01
+## 2022/07/02
 
 | 구분 | 난이도 | 번호 | 문제 이름 | 진행 상태 | 분류 | 참고 |
 |:------:|:------:|:----:|:---------:|:---------:|:---------:|:---------:|
+| [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [2234](https://www.acmicpc.net/problem/2234) | [성곽](https://www.acmicpc.net/problem/2234) | `BFS` `비트마스킹` | :white_check_mark:[code](BAEKJOON/BOJ_G4_2234_성곽.java) |
+
 
 
 ## 2022/06/30
