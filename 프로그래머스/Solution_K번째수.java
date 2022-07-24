@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution_K번째수 {
+
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
        
