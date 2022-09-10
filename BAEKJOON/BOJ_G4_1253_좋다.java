@@ -35,6 +35,7 @@ public class BOJ_G4_1253_좋다 {
 				int sum = arr[i] + arr[j];
 				
 				if(sum == key) {	// key가 서로 다른 두 수의 합이어야 함을 체크.
+					// 자기 자신을 포함하면 안됨 -> 예외처리
 					if(i!=k && j!=k) {
 						count++;
 						break;
