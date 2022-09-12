@@ -72,4 +72,4 @@ class Pipe {
 		this.c = c;
 		this.dir = dir;
 	}
-}
+} 
