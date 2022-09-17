@@ -21,10 +21,12 @@ public class BOJ_S2_11724_연결요소의개수 {
 		adjList = new ArrayList[N+1];
 		visited = new boolean[N+1];
 		
+		// 인접 리스트의 각 ArrayList 초기화하기.
 		for (int i = 0; i < N+1; i++) {
 			adjList[i] = new ArrayList<>();
 		}
 		
+		// 인접 리스트에 그래프 데이터 저장하기.
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
 			int u = Integer.parseInt(st.nextToken());
@@ -35,7 +37,7 @@ public class BOJ_S2_11724_연결요소의개수 {
 		
 		int count = 0;
 		for (int i = 1; i < N+1; i++) {
-			if(!visited[i]) {
+			if(!visited[i]) {	// 방문하지 않은 노드가 없을때까지 반복
 				dfs(i);
 				count++;
 			}
@@ -46,12 +48,13 @@ public class BOJ_S2_11724_연결요소의개수 {
 
 	public static void dfs(int i) {
 		
-		if(!visited[i]) {
-			visited[i] = true;
-			for (int j = 0; j < adjList[i].size(); j++) {
-				if(!visited[adjList[i].get(j)]) {
-					dfs(adjList[i].get(j));
-				}
+		if(visited[i]) return;
+		
+		visited[i] = true;
+		
+		for (int j : adjList[i]) {	
+			if(!visited[j]) {	// 연결노드 중 방문하지 않았던 노드만 탐색
+				dfs(j);
 			}
 		}
 	}
