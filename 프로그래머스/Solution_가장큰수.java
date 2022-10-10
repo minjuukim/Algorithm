@@ -1,6 +1,6 @@
 package day1009;
 
-public class Solution_°¡ÀåÅ«¼ö {
+public class Solution_Â°Â¡Ã€Ã¥Ã…Â«Â¼Ã¶ {
 	
 	static int N;
     static int max = 0;
@@ -10,13 +10,14 @@ public class Solution_°¡ÀåÅ«¼ö {
 
 		String answer = "";
         N = numbers.length;
-        isSelected = new int[N];
-        arr = new int[N];
+	String[] str = 
+        //isSelected = new int[N];
+        //arr = new int[N];
         
         return answer;
 	}
 	
-	// ¼ø¿­
+	// Â¼Ã¸Â¿Â­
     public void perm(int[] numbers, int cnt){
         if(cnt==N) {
             //Arrays.toString(arr).replaceAll("[^0-9]", "");
