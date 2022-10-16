@@ -10,8 +10,9 @@
 
 | 날짜  | 구분 | 난이도 | 번호 | 문제 이름 | 분류 | 진행 상태 | 참고 |
 |:------:|:------:|:------:|:----:|:---------:|:---------:|:---------:|:---------:|
-| 2022/10/15 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [2234](https://www.acmicpc.net/problem/9205) | [맥주마시면서걸어가기](https://www.acmicpc.net/problem/9205) | `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_S1_9205_맥주마시면서걸어가기.java) | 스터디 문제 |
-| 2022/10/16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2234](https://www.acmicpc.net/problem/13023) | [ABCDE](https://www.acmicpc.net/problem/13023) | `DFS` | :white_check_mark:[code](BAEKJOON/BOJ_G5_13023_ABCDE.java) | 스터디 문제 |
+| 2022/10/15 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [2178](https://www.acmicpc.net/problem/2178) | [미로탐색](https://www.acmicpc.net/problem/2178) | `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_S1_2178_미로탐색.java) | 스터디 문제 |
+| 2022/10/15 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [9205](https://www.acmicpc.net/problem/9205) | [맥주마시면서걸어가기](https://www.acmicpc.net/problem/9205) | `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_S1_9205_맥주마시면서걸어가기.java) | 스터디 문제 |
+| 2022/10/16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [13023](https://www.acmicpc.net/problem/13023) | [ABCDE](https://www.acmicpc.net/problem/13023) | `DFS` | :white_check_mark:[code](BAEKJOON/BOJ_G5_13023_ABCDE.java) | 스터디 문제 |
 
 ## 2022/07/02
 
