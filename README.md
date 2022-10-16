@@ -7,10 +7,10 @@
 
 <br/>  
 
-## 2022/07/05
 
-| 구분 | 난이도 | 번호 | 문제 이름 | 분류 | 진행 상태 | 참고 |
-|:------:|:------:|:----:|:---------:|:---------:|:---------:|:---------:|
+| 날짜  | 구분 | 난이도 | 번호 | 문제 이름 | 분류 | 진행 상태 | 참고 |
+|:------:|:------:|:------:|:----:|:---------:|:---------:|:---------:|:---------:|
+| 2022/10/16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [2234](https://www.acmicpc.net/problem/13023) | [ABCDE](https://www.acmicpc.net/problem/13023) | `DFS` | :white_check_mark:[code](BAEKJOON/BOJ_G5_13023_ABCDE.java) |
 
 ## 2022/07/02
 
