@@ -13,7 +13,7 @@
 | 2022/10/15 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [2178](https://www.acmicpc.net/problem/2178) | [미로탐색](https://www.acmicpc.net/problem/2178) | `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_S1_2178_미로탐색.java) | 스터디 문제 |
 | 2022/10/15 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [9205](https://www.acmicpc.net/problem/9205) | [맥주마시면서걸어가기](https://www.acmicpc.net/problem/9205) | `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_S1_9205_맥주마시면서걸어가기.java) | 스터디 문제 |
 | 2022/10/16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [13023](https://www.acmicpc.net/problem/13023) | [ABCDE](https://www.acmicpc.net/problem/13023) | `DFS` | :white_check_mark:[code](BAEKJOON/BOJ_G5_13023_ABCDE.java) | 스터디 문제 |
-| 2022/12/02 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [10942](https://www.acmicpc.net/problem/10942) | [팰린드롬?](https://www.acmicpc.net/problem/10942) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G4_10942_팰린드롬.java) | 1202 스터디 |
+| 2022/12/02 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [10942](https://www.acmicpc.net/problem/10942) | [팰린드롬?](https://www.acmicpc.net/problem/10942) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G4_10942_팰린드롬_DP.java) | 스터디 221202 |
 
 ## 2022/07/02
 
