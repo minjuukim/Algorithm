@@ -27,10 +27,6 @@ public class BOJ_G1_2098_외판원순회 {
 		}
 		
 		dp = new int[N][1<<N];
-		// dp 배열 초기화
-		for(int i=0; i<N; i++) {
-			Arrays.fill(dp[i], 0);
-		}
 		
 		System.out.println(TSP(0, 1));
 	}
