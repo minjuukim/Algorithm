@@ -20,6 +20,8 @@
 | 2022/12/06 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [11066](https://www.acmicpc.net/problem/11066) | [파일합치기](https://www.acmicpc.net/problem/11066) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G3_11066_파일합치기.java) | 스터디 221206 |
 | 2022/12/07 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [13398](https://www.acmicpc.net/problem/13398) | [연속합2](https://www.acmicpc.net/problem/13398) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G5_13398_연속합2.java) | 스터디 221207 |
 | 2022/12/08 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [9084](https://www.acmicpc.net/problem/9084) | [동전](https://www.acmicpc.net/problem/9084) | `DP` `배낭문제` | :white_check_mark:[code](BAEKJOON/BOJ_G5_9084_동전.java) | 스터디 221208 |
+| 2022/12/10 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [2110](https://www.acmicpc.net/problem/2110) | [공유기설치](https://www.acmicpc.net/problem/2110) | `이분탐색` | :white_check_mark:[code](BAEKJOON/BOJ_G4_2110_공유기설치.java) | 스터디 221210 |
+| 2022/12/11 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2011](https://www.acmicpc.net/problem/2011) | [암호코드](https://www.acmicpc.net/problem/2011) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2011_암호코드.java) | 스터디 221211 |
 
 ## 2022/07/02
 
