@@ -24,6 +24,7 @@
 | 2022-12-11 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2011](https://www.acmicpc.net/problem/2011) | [암호코드](https://www.acmicpc.net/problem/2011) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2011_암호코드.java) | 스터디 221211 |
 | 2022-12-12 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [5904](https://www.acmicpc.net/problem/5904) | Moo게임 | `분할정복` `이분탐색` | :white_check_mark:[code](BAEKJOON/BOJ_G5_5904_Moo게임.java) | 스터디 221212 | 
 | 2022-12-14 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [21870](https://www.acmicpc.net/problem/21870) | 시철이가 사랑한 GCD | `분할정복` | :white_check_mark:[code](BAEKJOON/BOJ_G5_21870_시철이가사랑한GCD.java) | 스터디 221214 | 
+| 2022-12-15 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [14600](https://www.acmicpc.net/problem/14600) | 샤워실 바닥깔기 | `분할정복` `트로미노` | :white_check_mark:[code](BAEKJOON/BOJ_G5_14600_샤워실바닥깔기.java) | 스터디 221215 | 
 
 ## 2022/07/02
 
