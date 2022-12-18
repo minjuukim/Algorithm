@@ -26,6 +26,7 @@
 | 2022-12-14 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [21870](https://www.acmicpc.net/problem/21870) | 시철이가 사랑한 GCD | `분할정복` | :white_check_mark:[code](BAEKJOON/BOJ_G5_21870_시철이가사랑한GCD.java) | 스터디 221214 | 
 | 2022-12-15 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [14600](https://www.acmicpc.net/problem/14600) | 샤워실 바닥깔기 | `분할정복` `트로미노` | :white_check_mark:[code](BAEKJOON/BOJ_G5_14600_샤워실바닥깔기.java) | 스터디 221215 | 
 | 2022-12-16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [6597](https://www.acmicpc.net/problem/6597) | 트리 복구 | `분할정복` `그래프` `트리` | :white_check_mark:[code](BAEKJOON/BOJ_G4_6597_트리복구.java) | 스터디 221216 | 
+| 2022-12-18 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [2631](https://www.acmicpc.net/problem/2631) | 줄세우기 | `DP` `LIS` | :white_check_mark:[code](BAEKJOON/BOJ_G4_2631_줄세우기.java) | 스터디 221218 | 
 
 ## 2022/07/02
 
