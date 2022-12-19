@@ -28,6 +28,7 @@
 | 2022-12-16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [6597](https://www.acmicpc.net/problem/6597) | 트리 복구 | `분할정복` `그래프` `트리` | :white_check_mark:[code](BAEKJOON/BOJ_G4_6597_트리복구.java) | 스터디 221216 | 
 | 2022-12-17 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [1915](https://www.acmicpc.net/problem/1915) | 가장 큰 정사각형 | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G4_1915_가장큰정사각형.java) | 스터디 221217 |
 | 2022-12-18 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [2631](https://www.acmicpc.net/problem/2631) | 줄세우기 | `DP` `LIS` | :white_check_mark:[code](BAEKJOON/BOJ_G4_2631_줄세우기.java) | 스터디 221218 | 
+| 2022-12-19 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [18291](https://www.acmicpc.net/problem/18291) | 비요뜨의 징검다리 건너기 | `분할정복` `거듭제곱` | :white_check_mark:[code](BAEKJOON/BOJ_G5_18291_비요뜨의징검다리건너기.java) | 스터디 221219 | 
 
 ## 2022/07/02
 
