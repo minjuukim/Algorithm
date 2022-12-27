@@ -38,7 +38,6 @@ public class BOJ_G5_26598_색종이와공예 {
 				}
 			}
 		}
-		
 		System.out.println("dd");
 	}
 	
@@ -58,25 +57,26 @@ public class BOJ_G5_26598_색종이와공예 {
 				int nr = cur[0] + dr[d];
 				int nc = cur[1] + dc[d];
 				
-				if(nr<0 || nr>=N || nc<0 || nc>=M || visited[nr][nc]) continue;
+				if(nr<0 || nr>=N || nc<0 || nc>=M || visited[nr][nc] || board[nr][nc]!=alpha) continue;
 				
-				if(board[nr][nc] == alpha) {
-					maxR = Math.max(maxR, nr);
-					maxC = Math.max(maxC, nc);
-					minR = Math.min(minR, nr);
-					minC = Math.min(minC, nc);
-					
-					cnt++;
-					que.offer(new int[] {nr, nc});
-				}
+				maxR = Math.max(maxR, nr);
+				maxC = Math.max(maxC, nc);
+				minR = Math.min(minR, nr);
+				minC = Math.min(minC, nc);
+				
+				cnt++;
+				que.offer(new int[] {nr, nc});
 				visited[nr][nc] = true;
 			}
 		}
-		int size = (maxR-minR+1)*(maxC-minC+1);
-		if(size != cnt) {
-			return false;
-		} else {
-			return true;
+		
+		for(int i=minR; i<=maxR; i++) {
+			for(int j=minC; j<=maxC; j++) {
+				if(board[i][j] != alpha) {
+					return false;
+				}
+			}
 		}
+		return true;
 	}
 }
