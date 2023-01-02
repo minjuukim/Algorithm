@@ -34,7 +34,7 @@
 | 2022-12-28 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [2715](https://www.acmicpc.net/problem/2715) | 상범 마법 팬케이크 하우스 | `구현` `그리디` | :white_check_mark:[code](BAEKJOON/BOJ_G4_2715_상범마법팬케이크하우스.java) | 스터디 221228 | 
 | 2022-12-29 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [11049](https://www.acmicpc.net/problem/11049) | 행렬 곱셈 순서 | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G3_11049_행렬곱셈순서.java) | 스터디 221229 | 
 | 2022-12-30 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [2306](https://www.acmicpc.net/problem/2306) | [유전자](https://www.acmicpc.net/problem/2306) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G3_2306_유전자.java) | 스터디 221230 | 
-| 2023-01-02 | [프로그래머스]() | Lv2 | [42747](https://school.programmers.co.kr/learn/courses/30/lessons/42747) | [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747) | `정렬` | :white_check_mark:[code](프로그래머스/정렬/Solution_H-Index.java) | 230102 | 
+| 2023-01-02 | [프로그래머스](프로그래머스) | Lv2 | [42747](https://school.programmers.co.kr/learn/courses/30/lessons/42747) | [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747) | `정렬` | :white_check_mark:[code](프로그래머스/정렬/Solution_H-Index.java) | 230102 | 
 | 2023-01-02 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [20057](https://www.acmicpc.net/problem/20057) | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | `구현` | :white_check_mark:[code](BAEKJOON/BOJ_G3_20057_마법사상어와토네이도.java) | 스터디 230102 | 
 
 ## 2022/07/02
