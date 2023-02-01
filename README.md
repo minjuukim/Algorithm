@@ -37,6 +37,9 @@
 | 2023-01-02 | [프로그래머스](프로그래머스) | Lv2 | [42747](https://school.programmers.co.kr/learn/courses/30/lessons/42747) | [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747) | `정렬` | :white_check_mark:[code](프로그래머스/정렬/Solution_H-Index.java) | 230102 | 
 | 2023-01-02 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [20057](https://www.acmicpc.net/problem/20057) | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | `구현` | :white_check_mark:[code](BAEKJOON/BOJ_G3_20057_마법사상어와토네이도.java) | 스터디 230102 | 
 | 2023-01-04 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [21610](https://www.acmicpc.net/problem/21610) | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | `구현` | :white_check_mark:[code](BAEKJOON/BOJ_G5_21610_마법사상어와비바라기.java) | 스터디 230104 | 
+| 2023-01-30 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [13325](https://www.acmicpc.net/problem/13325) | [이진트리](https://www.acmicpc.net/problem/13325) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G3_13325_이진트리.java) | 스터디 230130 |
+| 2023-02-01 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2470](https://www.acmicpc.net/problem/2470) | [두 용액](https://www.acmicpc.net/problem/2470) | `투포인터` `정렬` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2470_두용액.java) | 스터디 230201 |
+
 
 ## 2022/07/02
 
