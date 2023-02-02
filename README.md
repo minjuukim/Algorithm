@@ -39,6 +39,7 @@
 | 2023-01-04 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [21610](https://www.acmicpc.net/problem/21610) | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | `구현` | :white_check_mark:[code](BAEKJOON/BOJ_G5_21610_마법사상어와비바라기.java) | 스터디 230104 | 
 | 2023-01-30 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [13325](https://www.acmicpc.net/problem/13325) | [이진트리](https://www.acmicpc.net/problem/13325) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G3_13325_이진트리.java) | 스터디 230130 |
 | 2023-02-01 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2470](https://www.acmicpc.net/problem/2470) | [두 용액](https://www.acmicpc.net/problem/2470) | `투포인터` `정렬` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2470_두용액.java) | 스터디 230201 |
+| 2023-02-02 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [15486](https://www.acmicpc.net/problem/15486) | [퇴사2](https://www.acmicpc.net/problem/15486) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G5_15486_퇴사2.java) | 스터디 230202 |
 
 
 ## 2022/07/02
