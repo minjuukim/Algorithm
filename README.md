@@ -41,6 +41,7 @@
 | 2023-02-01 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2470](https://www.acmicpc.net/problem/2470) | [두 용액](https://www.acmicpc.net/problem/2470) | `투포인터` `정렬` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2470_두용액.java) | 스터디 230201 |
 | 2023-02-02 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [15486](https://www.acmicpc.net/problem/15486) | [퇴사2](https://www.acmicpc.net/problem/15486) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G5_15486_퇴사2.java) | 스터디 230202 |
 | 2023-02-03 | [Softeer](Softeer) | Lv3 | - | [수퍼바이러스](https://softeer.ai/practice/info.do?idx=1&eid=391) | `재귀` | :white_check_mark:[code](Softeer/Softeer_수퍼바이러스.java) | - |
+| 2023-02-03 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2240](https://www.acmicpc.net/problem/2240) | [자두나무](https://www.acmicpc.net/problem/2240) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2240_자두나무.java) | 스터디 230203 |
 
 
 ## 2022/07/02
