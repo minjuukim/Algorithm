@@ -34,5 +34,5 @@ public class Softeer_수퍼바이러스 {
         } else {
             return (half * half % MOD) * P % MOD;
         }
-    }
+    } 
 }
