@@ -44,6 +44,7 @@
 | 2023-02-03 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2240](https://www.acmicpc.net/problem/2240) | [자두나무](https://www.acmicpc.net/problem/2240) | `DP` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2240_자두나무.java) | 스터디 230203 |
 | 2023-02-03 | [Softeer](Softeer) | Lv3 | - | [강의실 배정](https://softeer.ai/practice/info.do?idx=1&eid=392&sw_prbl_sbms_sn=142626) | `그리디` | :white_check_mark:[code](Softeer/Softeer_강의실배정.java) | - |
 | 2023-02-06 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [1351](https://www.acmicpc.net/problem/1351) | [무한수열](https://www.acmicpc.net/problem/1351) | `DP` `해시맵` | :white_check_mark:[code](BAEKJOON/BOJ_G5_1351_무한수열.java) | 스터디 230206 |
+| 2023-02-07 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [12348](https://www.acmicpc.net/problem/12348) | [분해합2](https://www.acmicpc.net/problem/12348) | `브루트포스` `애드혹` | :white_check_mark:[code](BAEKJOON/BOJ_G5_12348_분해합2.java) | 스터디 230207 |
 
 
 ## 2022/07/02
