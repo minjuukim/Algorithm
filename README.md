@@ -47,6 +47,7 @@
 | 2023-02-07 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [12348](https://www.acmicpc.net/problem/12348) | [분해합2](https://www.acmicpc.net/problem/12348) | `브루트포스` `애드혹` | :white_check_mark:[code](BAEKJOON/BOJ_G5_12348_분해합2.java) | 스터디 230207 |
 | 2023-02-08 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [13549](https://www.acmicpc.net/problem/13549) | [숨바꼭질3](https://www.acmicpc.net/problem/13549) | `BFS` `다익스트라` | :white_check_mark:[code](BAEKJOON/BOJ_G5_13549_숨바꼭질3.java) | - |
 | 2023-02-08 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2138](https://www.acmicpc.net/problem/2138) | [전구와 스위치](https://www.acmicpc.net/problem/2138) | `그리디` | :white_check_mark:[code](BAEKJOON/BOJ_G5_2138_전구와스위치.java) | 스터디 230208 |
+| 2023-02-09 | [프로그래머스](프로그래머스) | Lv2 | [42860](https://school.programmers.co.kr/learn/courses/30/lessons/42860) | [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860) | `그리디` | :white_check_mark:[code](프로그래머스/그리디/Solution_조이스틱.java) | - | 
 
 
 ## 2022/07/02
