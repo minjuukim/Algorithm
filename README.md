@@ -51,6 +51,7 @@
 | 2023-02-09 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [16563](https://www.acmicpc.net/problem/16563) | [어려운 소인수분해](https://www.acmicpc.net/problem/16563) | `소수판정` `에라토스테네스의 체` | :white_check_mark:[code](BAEKJOON/BOJ_G4_16563_어려운소인수분해.java) | 스터디 230209 |
 | 2023-02-13 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [10282](https://www.acmicpc.net/problem/10282) | [해킹](https://www.acmicpc.net/problem/10282) | `그래프` `다익스트라` | :white_check_mark:[code](BAEKJOON/BOJ_G5_10282_해킹.java) | 스터디 230213 |
 | 2023-02-14 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [1753](https://www.acmicpc.net/problem/1753) | [최단경로](https://www.acmicpc.net/problem/1753) | `그래프` `다익스트라` | :white_check_mark:[code](BAEKJOON/BOJ_G4_1753_최단경로.java) | - |
+| 2023-02-14 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [3343](https://www.acmicpc.net/problem/3343) | [장미](https://www.acmicpc.net/problem/3343) | `정수론` `브루트포스` | :white_check_mark:[code](BAEKJOON/BOJ_G4_3343_장미.java) | 스터디 230214 |
 
 
 ## 2022/07/02
