@@ -53,6 +53,8 @@
 | 2023-02-14 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [1753](https://www.acmicpc.net/problem/1753) | [최단경로](https://www.acmicpc.net/problem/1753) | `그래프` `다익스트라` | :white_check_mark:[code](BAEKJOON/BOJ_G4_1753_최단경로.java) | - |
 | 2023-02-14 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [3343](https://www.acmicpc.net/problem/3343) | [장미](https://www.acmicpc.net/problem/3343) | `정수론` `브루트포스` | :white_check_mark:[code](BAEKJOON/BOJ_G4_3343_장미.java) | 스터디 230214 |
 | 2023-02-15 | [Softeer](Softeer) | Lv3 | - | [업무 처리](https://softeer.ai/practice/info.do?idx=1&eid=1256) | `트리` `큐` | :white_check_mark:[code](Softeer/Softeer_업무처리.java) | - |
+| 2023-02-16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [9251](https://www.acmicpc.net/problem/9251) | [LCS](https://www.acmicpc.net/problem/9251) | `DP` `문자열` | :white_check_mark:[code](BAEKJOON/BOJ_G5_9251_LCS.java) | 스터디 |
+| 2023-02-16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [1958](https://www.acmicpc.net/problem/1958) | [LCS3](https://www.acmicpc.net/problem/1958) | `DP` `문자열` | :white_check_mark:[code](BAEKJOON/BOJ_G3_1958_LCS3.java) | 스터디 |
 
 
 ## 2022/07/02
