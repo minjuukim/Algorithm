@@ -55,6 +55,7 @@
 | 2023-02-15 | [Softeer](Softeer) | Lv3 | - | [업무 처리](https://softeer.ai/practice/info.do?idx=1&eid=1256) | `트리` `큐` | :white_check_mark:[code](Softeer/Softeer_업무처리.java) | - |
 | 2023-02-16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [9251](https://www.acmicpc.net/problem/9251) | [LCS](https://www.acmicpc.net/problem/9251) | `DP` `문자열` | :white_check_mark:[code](BAEKJOON/BOJ_G5_9251_LCS.java) | 스터디 |
 | 2023-02-16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [1958](https://www.acmicpc.net/problem/1958) | [LCS3](https://www.acmicpc.net/problem/1958) | `DP` `문자열` | :white_check_mark:[code](BAEKJOON/BOJ_G3_1958_LCS3.java) | 스터디 |
+| 2023-02-20 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [5549](https://www.acmicpc.net/problem/5549) | [행성탐사](https://www.acmicpc.net/problem/5549) | `누적합` | :white_check_mark:[code](BAEKJOON/BOJ_G5_5549_행성탐사.java) | - |
 
 
 ## 2022/07/02
