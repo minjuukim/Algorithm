@@ -57,6 +57,7 @@
 | 2023-02-16 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [1958](https://www.acmicpc.net/problem/1958) | [LCS3](https://www.acmicpc.net/problem/1958) | `DP` `문자열` | :white_check_mark:[code](BAEKJOON/BOJ_G3_1958_LCS3.java) | 스터디 |
 | 2023-02-20 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [5549](https://www.acmicpc.net/problem/5549) | [행성탐사](https://www.acmicpc.net/problem/5549) | `누적합` | :white_check_mark:[code](BAEKJOON/BOJ_G5_5549_행성탐사.java) | - |
 | 2023-02-23 | [프로그래머스](프로그래머스) | Lv2 | [42577](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | `해시` | :white_check_mark:[code](프로그래머스/해시/Solution_전화번호목록.java) | - | 
+| 2023-02-25 | [프로그래머스](프로그래머스) | Lv2 | [42578](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | `해시` | :white_check_mark:[code](프로그래머스/해시/Solution_위장.java) | - | 
 
 
 ## 2022/07/02
