@@ -16,9 +16,9 @@ class Solution {
         }
         
         for(Integer c : map.values()){
-            answer *= c + 1;
+            answer *= c + 1;    // 각 종류의 입지 않는 경우의 수 포함하여 연산
         }
         
-        return answer-1;
+        return answer-1;    // 아무것도 입지 않는 경우 제외
     }
 }
