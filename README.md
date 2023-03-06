@@ -60,6 +60,7 @@
 | 2023-02-25 | [프로그래머스](프로그래머스) | Lv2 | [42578](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | [위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | `해시` | :white_check_mark:[code](프로그래머스/lv2/42578. 위장/위장.java) | - | 
 | 2023-02-27 | [프로그래머스](프로그래머스) | Lv1 | [42576](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | `해시` | :white_check_mark:[code](프로그래머스/lv1/42576. 완주하지 못한 선수/완주하지 못한 선수.java) | - | 
 | 2023-03-06 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [3980](https://www.acmicpc.net/problem/3980) | [선발명당](https://www.acmicpc.net/problem/3980) | `백트래킹` `브루트포스` | :white_check_mark:[code](BAEKJOON/BOJ_G5_3980_선발명당.java) | - |
+| 2023-03-06 | [Softeer](Softeer) | Lv3 | - | [성적 평가](https://softeer.ai/practice/info.do?idx=1&eid=1309) | `구현` | :white_check_mark:[code](Softeer/Softeer_성적평가.java) | - |
 
 
 ## 2022/07/02
