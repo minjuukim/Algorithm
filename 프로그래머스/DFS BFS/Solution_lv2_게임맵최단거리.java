@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class Solution {
+    static int[][] map;
     static int R, C;
     static boolean[][] visited;
     static int[] dr = {-1, 1, 0, 0};
@@ -9,15 +10,21 @@ class Solution {
     
     public int solution(int[][] maps) {
         int answer = 0;
+   
         R = maps.length;
         C = maps[0].length;
-        bfs(0, 0);
+
+        map = maps;
+        visited = new boolean[R][C];
+        answer = bfs();
+
+        
         return answer;
     }
     
-    public void bfs(int r, int c){
+    public static int bfs(){
         Queue<Node> que = new LinkedList<>();
-        que.offer(new Node(0, 0, 1));
+        que.offer(new Node(0, 0));
         visited[0][0] = true;
         
         while(!que.isEmpty()) {
@@ -30,20 +37,21 @@ class Solution {
                 if(nr<0 || nr>=R || nc<0 || nc>=C || map[nr][nc]==0 || visited[nr][nc]) continue;
                 
                 visited[nr][nc] = true;
-                que.offer(new Node(nr, nc, cur.cnt+1));
+                map[nr][nc] = map[cur.r][cur.c] + 1;
+                que.offer(new Node(nr, nc));
             }
         }
+        
+        return map[R-1][C-1] == 1 ? -1 : map[R-1][C-1];
     }
     
-    public class Node {
+    public static class Node {
         int r;
         int c;
-        int cnt;
         
-        public Node(int r, int c, int cnt) {
+        public Node(int r, int c) {
             this.r = r;
             this.c = c;
-            this.cnt = cnt;
         }
     }
 }
