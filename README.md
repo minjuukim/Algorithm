@@ -63,6 +63,7 @@
 | 2023-03-06 | [Softeer](Softeer) | Lv3 | - | [성적 평가](https://softeer.ai/practice/info.do?idx=1&eid=1309) | `구현` | :white_check_mark:[code](Softeer/Softeer_성적평가.java) | - |
 | 2023-03-08 | [프로그래머스](프로그래머스) | Lv2 | [42883](https://school.programmers.co.kr/learn/courses/30/lessons/42883) | [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883) | `그리디` | :white_check_mark:[code](프로그래머스/그리디/Solution_큰수만들기.java) | - | 
 | 2023-03-09 | [프로그래머스](프로그래머스) | Lv2 | [42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | `그리디` `투포인터` `Deque` | :white_check_mark:[투포인터](프로그래머스/그리디/Solution_구명보트_투포인터.java) [Deque](프로그래머스/그리디/Solution_구명보트_Deque.java) | - | 
+| 2023-03-28 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [16236](https://www.acmicpc.net/problem/16236) | [아기 상어](https://www.acmicpc.net/problem/16236) | `구현` `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_G3_16236_아기상어.java) | - |
 
 
 ## 2022/07/02
