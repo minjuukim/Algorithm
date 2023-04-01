@@ -65,6 +65,7 @@
 | 2023-03-09 | [프로그래머스](프로그래머스) | Lv2 | [42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | `그리디` `투포인터` `Deque` | :white_check_mark:[투포인터](프로그래머스/그리디/Solution_구명보트_투포인터.java) [Deque](프로그래머스/그리디/Solution_구명보트_Deque.java) | - | 
 | 2023-03-28 | [백준](BAEKJOON) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [16236](https://www.acmicpc.net/problem/16236) | [아기 상어](https://www.acmicpc.net/problem/16236) | `구현` `BFS` | :white_check_mark:[code](BAEKJOON/BOJ_G3_16236_아기상어.java) | - |
 | 2023-04-01 | [프로그래머스](프로그래머스) | Lv2 | [42839](https://school.programmers.co.kr/learn/courses/30/lessons/42839) | [소수찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) | `완전탐색` `순열` `에라토스테네스의 체` | :white_check_mark:[#1](프로그래머스/완전탐색/lv2_소수찾기.java) [#2](프로그래머스/완전탐색/lv2_소수찾기_2.java) | - | 
+| 2023-04-01 | [프로그래머스](프로그래머스) | Lv2 | [42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | [소수찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42842) | `완전탐색` | :white_check_mark:[code](프로그래머스/완전탐색/lv2_카펫.java) | - | 
 
 
 ## 2022/07/02
